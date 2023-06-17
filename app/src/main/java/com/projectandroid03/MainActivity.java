@@ -7,7 +7,12 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
     String b = "h";
     String c = "2";
+
     String thanh = "pc";
+
+    String maianh = "jdfjd";
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
