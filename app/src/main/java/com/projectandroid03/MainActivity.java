@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     String maianh = "jdfjd";
 
+    String k = "123";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
