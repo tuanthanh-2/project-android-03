@@ -19,7 +19,7 @@ public class HomeApp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_app);
-        List<Category> image_details = getListData();
+        List<Category> image_details = categoryList();
         final GridView gridView = (GridView) findViewById(R.id.gridViewCategory);
         gridView.setAdapter(new CustomCategoryAdapter(this, image_details));
 
@@ -34,11 +34,11 @@ public class HomeApp extends AppCompatActivity {
 
     }
 
-    private List<Category> getListData(){
+    private List<Category> categoryList(){
         List<Category> list = new ArrayList<Category>();
-        Category vietnam = new Category("Vietnam", "duocpham");
+        Category duocpham = new Category("Vietnam", "duocpham");
 
-        list.add(vietnam);
+        list.add(duocpham);
 
         return  list;
     }
