@@ -305,151 +305,160 @@
             android:textSize="18dp"
             android:layout_margin="20dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical">-->
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    app:cardCornerRadius="50dp">
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="70dp"-->
+<!--                    app:cardCornerRadius="50dp">-->
 
-                    <ImageView
-                        android:id="@+id/imageView131"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/duocpham" />
-
-
-                </androidx.cardview.widget.CardView>
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:gravity="center"
-                    android:text="Dược phẩm" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    app:cardCornerRadius="50dp">
-
-                    <ImageView
-                        android:id="@+id/imageView132"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/cssk" />
+<!--                    <ImageView-->
+<!--                        android:id="@+id/imageView131"-->
+<!--                        android:layout_width="70dp"-->
+<!--                        android:layout_height="70dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/duocpham" />-->
 
 
-                </androidx.cardview.widget.CardView>
+<!--                </androidx.cardview.widget.CardView>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView4"-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="Dược phẩm" />-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="70dp"-->
+<!--                    app:cardCornerRadius="50dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/imageView132"-->
+<!--                        android:layout_width="70dp"-->
+<!--                        android:layout_height="70dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/cssk" />-->
 
 
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:gravity="center"
-                    android:text="Chăm sóc sức khỏe" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    app:cardCornerRadius="50dp">
-
-                    <ImageView
-                        android:id="@+id/imageView133"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/duocpham" />
+<!--                </androidx.cardview.widget.CardView>-->
 
 
-                </androidx.cardview.widget.CardView>
+<!--                <TextView-->
+<!--                    android:id="@+id/textView5"-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="Chăm sóc sức khỏe" />-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="70dp"-->
+<!--                    app:cardCornerRadius="50dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/imageView133"-->
+<!--                        android:layout_width="70dp"-->
+<!--                        android:layout_height="70dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/duocpham" />-->
 
 
-                <TextView
-                    android:id="@+id/textView33"
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:gravity="center"
-                    android:text="Chăm sóc cá nhân" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="70dp"
-                    android:layout_height="70dp"
-                    app:cardCornerRadius="50dp">
-
-                    <ImageView
-                        android:id="@+id/imageView134"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/duocpham" />
+<!--                </androidx.cardview.widget.CardView>-->
 
 
-                </androidx.cardview.widget.CardView>
+<!--                <TextView-->
+<!--                    android:id="@+id/textView33"-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="Chăm sóc cá nhân" />-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <androidx.cardview.widget.CardView-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="70dp"-->
+<!--                    app:cardCornerRadius="50dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/imageView134"-->
+<!--                        android:layout_width="70dp"-->
+<!--                        android:layout_height="70dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:background="@drawable/duocpham" />-->
 
 
-                <TextView
-                    android:id="@+id/tv22"
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:gravity="center"
-                    android:text="Sản phẩm tiện lợi" />
-            </LinearLayout>
+<!--                </androidx.cardview.widget.CardView>-->
 
 
-        </LinearLayout>
+<!--                <TextView-->
+<!--                    android:id="@+id/tv22"-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="Sản phẩm tiện lợi" />-->
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
 
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-------" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/recyclerViewCategory"/>
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridViewCategory"
+
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
