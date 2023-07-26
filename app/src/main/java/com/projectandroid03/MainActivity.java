@@ -9,10 +9,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ViewFlipper;
 
+import com.bumptech.glide.Glide;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
@@ -42,8 +45,16 @@ public class MainActivity extends AppCompatActivity {
         quangcao.add("https://data-service.pharmacity.io/pmc-ecm-webapp-config-api/production/banner/BANNER%20CALCIUM_913(x1.5)-280%20(x1.5)-1687401452955.jpg");
         for( int i = 0; i < quangcao.size(); i++){
             ImageView imageView = new ImageView(getApplicationContext());
-
+            Glide.with(getApplicationContext()).load(quangcao.get(i)).into(imageView);
+            imageView.setScaleType(ImageView.ScaleType.FIT_XY);
+            viewFlipperhome.addView(imageView);
         }
+        viewFlipperhome.setFlipInterval(3000);
+        viewFlipperhome.setAutoStart(true);
+        Animation slide_in = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_in_right);
+        Animation slide_out = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_out_right);
+        viewFlipperhome.setInAnimation(slide_in);
+        viewFlipperhome.setOutAnimation(slide_out);
     }
 
     private void ActionBar(){
