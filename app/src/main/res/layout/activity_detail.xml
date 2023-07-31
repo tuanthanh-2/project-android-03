@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Product_detail">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_detail"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/icon_back"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="800px"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="43dp"
+            android:layout_height="41dp"
+            app:srcCompat="@drawable/icon_sell_stock"
+            tools:layout_editor_absoluteX="352dp"
+            tools:layout_editor_absoluteY="16dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_detail"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0px">
+
+
+            <ImageView
+                android:id="@+id/img_detail_product"
+                android:layout_width="match_parent"
+                android:layout_height="800px"
+                app:srcCompat="@drawable/product_detail_demo" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên sản phẩm"
+                android:textSize="60px"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="26px"
+                android:layout_marginTop="18px"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50.000 đ"
+                android:textSize="60px"
+                android:textStyle="bold"
+                android:textColor="#435EF4"
+                android:layout_marginLeft="26px"
+                android:layout_marginTop="18px"
+                android:layout_marginBottom="30px"/>
+
+            <View
+                android:layout_marginTop="18px"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAA7A7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Các hình thức giao hàng"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="26px"
+                android:layout_marginTop="28px"/>
+            <View
+                android:layout_marginTop="28px"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAA7A7" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mô tả sản phẩm"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="26px"
+                android:layout_marginTop="28px"/>
+            <View
+                android:layout_marginTop="28px"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAA7A7" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nhưng chúng vẫn chi phối rất nhiều khi học sinh học thuộc
+những mở bài với cấu trúc giới thiệu tác giả, tác phẩm,
+vấn đề nghị luận... Đối với đoạn thơ đó, câu chuyện đó,
+nhiều em biết cần phải thuộc được những câu văn
+phân tích có sẵn để dễ lấy điểm hơn.
+Có lẽ phụ huynh nào cũng từng xuất hiện trong
+bài văn của con mình với vẻ
+ngoài và tính tình hoàn toàn không giống mình
+nhưng lại rất giống nhau.
+
+Ngày mới ra trường, khi chấm bài kiểm
+tra tập làm văn lớp sáu với đề bài
+tôi đã ngạc nhiên khi hầu như cả lớp chỉ làm có hai việc tốt,
+một là dẫn bà cụ qua đường,
+hai là nhặt được chiếc ví và trả lại người mất.
+
+Điều khiến tôi không biết nên cười hay
+nên khóc là bà cụ trong bài nào
+cũng đứng ở ngã tư, cũng ưng cong cong,
+đôi mắt hiền từ Chiếc ví nào
+cũng nhặt được trên đường đi học về, cũng
+những mở bài với cấu trúc giới thiệu tác giả, tác phẩm,
+vấn đề nghị luận... Đối với đoạn thơ đó, câu chuyện đó,
+nhiều em biết cần phải thuộc được những câu văn
+phân tích có sẵn để dễ lấy điểm hơn.
+Có lẽ phụ huynh nào cũng từng xuất hiện trong
+bài văn của con mình với vẻ
+ngoài và tính tình hoàn toàn không giống mình
+nhưng lại rất giống nhau.
+
+Ngày mới ra trường, khi chấm bài kiểm
+tra tập làm văn lớp sáu với đề bài
+tôi đã ngạc nhiên khi hầu như cả lớp chỉ làm có hai việc tốt,
+một là dẫn bà cụ qua đường,
+hai là nhặt được chiếc ví và trả lại người mất.
+
+Điều khiến tôi không biết nên cười hay
+nên khóc là bà cụ trong bài nào
+cũng đứng ở ngã tư, cũng ưng cong cong,
+đôi mắt hiền từ Chiếc ví nào
+ cũng nhặt được trên đường đi học về, cũng
+abc"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:background="#CCCACA">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80px" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="150px"
+            android:layout_gravity="end"
+            android:layout_marginTop="20px"
+            android:layout_marginRight="80px"
+            android:drawableLeft="@drawable/icons_sell_stock_16"
+            android:text="Thêm vào giỏ hàng" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
