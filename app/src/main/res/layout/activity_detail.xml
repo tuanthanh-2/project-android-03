@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Product_detail">
+    tools:context=".Activity.Product_detail">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_detail"
@@ -60,6 +60,7 @@
                 android:layout_height="800px"
                 app:srcCompat="@drawable/product_detail_demo" />
             <TextView
+                android:id="@+id/tensp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Tên sản phẩm"
@@ -69,6 +70,7 @@
                 android:layout_marginLeft="26px"
                 android:layout_marginTop="18px"/>
             <TextView
+                android:id="@+id/giasp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="50.000 đ"
@@ -114,6 +116,7 @@
                 android:layout_height="1dp"
                 android:background="#AAA7A7" />
             <TextView
+                android:id="@+id/mota"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="nhưng chúng vẫn chi phối rất nhiều khi học sinh học thuộc
@@ -174,18 +177,22 @@ abc"
         android:background="#CCCACA">
 
         <Spinner
-            android:layout_width="wrap_content"
+            android:id="@+id/spinnerSP"
+            android:layout_width="300px"
             android:layout_height="match_parent"
-            android:layout_marginLeft="80px" />
+            android:layout_marginLeft="80px"
+            android:entries="@array/quantity_options"/>
 
         <Button
+            android:id="@+id/btnThem"
             android:layout_width="wrap_content"
             android:layout_height="150px"
             android:layout_gravity="end"
             android:layout_marginTop="20px"
             android:layout_marginRight="80px"
             android:drawableLeft="@drawable/icons_sell_stock_16"
-            android:text="Thêm vào giỏ hàng" />
+            android:text="Thêm vào giỏ hàng"
+            android:backgroundTint="#37833A"/>
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
